@@ -1,0 +1,62 @@
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.wrapper {
+  width: 70vw;
+  min-width: 320px;
+  height: 80vh;
+  min-height: 380px;
+  margin: 10vh auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: skyblue;
+  display: grid;
+  grid-template-columns: 24% 1% 24% 1% 24% 1% 24% ;
+  grid-template-rows: 25% 15% 15% 15% 15%;
+}
+
+h2 {
+  color: red;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.calc-btn {
+  width: 25%;
+  height: auto;
+}
+
+#row1 {
+  grid-row: 2 / 3;
+}
+
+#row2 {
+  grid-row: 2 / 3;
+}
+
+#row3 {
+  grid-row: 3 / 4;
+}
+
+#row4 {
+  grid-row: 4 / 5;
+}
+
+
+
+.number-zone {
+  width: 50px;
+  height: 100px;
+  display: grid;
+  grid-row-start:
+}
+
+
+
+
+
+
+
+
