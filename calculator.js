@@ -8248,7 +8248,7 @@ var _user$project$Calculator$viewCalculator = A2(
 							}
 						}
 					}),
-				'row1'),
+				'btn-row1'),
 			_1: {
 				ctor: '::',
 				_0: A2(
@@ -8271,7 +8271,7 @@ var _user$project$Calculator$viewCalculator = A2(
 								}
 							}
 						}),
-					'row2'),
+					'btn-row2'),
 				_1: {
 					ctor: '::',
 					_0: A2(
@@ -8294,7 +8294,7 @@ var _user$project$Calculator$viewCalculator = A2(
 									}
 								}
 							}),
-						'row3'),
+						'btn-row3'),
 					_1: {
 						ctor: '::',
 						_0: A2(
@@ -8317,8 +8317,32 @@ var _user$project$Calculator$viewCalculator = A2(
 										}
 									}
 								}),
-							'row4'),
-						_1: {ctor: '[]'}
+							'btn-row4'),
+						_1: {
+							ctor: '::',
+							_0: A2(
+								_user$project$Calculator$makeRowFrom,
+								_user$project$Calculator$buttonList(
+									{
+										ctor: '::',
+										_0: '0',
+										_1: {
+											ctor: '::',
+											_0: 'blank',
+											_1: {
+												ctor: '::',
+												_0: '.',
+												_1: {
+													ctor: '::',
+													_0: '=',
+													_1: {ctor: '[]'}
+												}
+											}
+										}
+									}),
+								'btn-row5'),
+							_1: {ctor: '[]'}
+						}
 					}
 				}
 			}

@@ -48,10 +48,11 @@ viewCalculator : Html msg
 viewCalculator =
     div [ class "wrapper" ]
         [ calcDisplay
-        , makeRowFrom (buttonList [ "AC", "+/-", "%", "÷" ]) "row1"
-        , makeRowFrom (buttonList [ "7", "8", "9", "x" ]) "row2"
-        , makeRowFrom (buttonList [ "4", "5", "6", "-" ]) "row3"
-        , makeRowFrom (buttonList [ "1", "2", "3", "+" ]) "row4"
+        , makeRowFrom (buttonList [ "AC", "+/-", "%", "÷" ]) "btn-row1"
+        , makeRowFrom (buttonList [ "7", "8", "9", "x" ]) "btn-row2"
+        , makeRowFrom (buttonList [ "4", "5", "6", "-" ]) "btn-row3"
+        , makeRowFrom (buttonList [ "1", "2", "3", "+" ]) "btn-row4"
+        , makeRowFrom (buttonList [ "0", "blank", ".", "=" ]) "btn-row5"
         ]
 
 
