@@ -8168,7 +8168,14 @@ var _user$project$Calculator$makeButton = function (label) {
 		},
 		{
 			ctor: '::',
-			_0: _elm_lang$html$Html$text(label),
+			_0: A2(
+				_elm_lang$html$Html$span,
+				{ctor: '[]'},
+				{
+					ctor: '::',
+					_0: _elm_lang$html$Html$text(label),
+					_1: {ctor: '[]'}
+				}),
 			_1: {ctor: '[]'}
 		});
 };

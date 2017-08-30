@@ -1,3 +1,10 @@
+:root {
+  --primary-blue: #0074d9;
+  --primary-yellow: #ffdc00;
+  --primary-red: #ff4136;
+}
+
+
 footer {
   position: fixed;
   bottom: 0;
@@ -9,27 +16,42 @@ footer {
   height: 80vh;
   min-height: 380px;
   margin: 10vh auto;
-  border: 3px solid black;
+  border: 10px groove yellow;
   border-radius: 10px;
-  background-color: skyblue;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 15% 15% 15% 15% 15%;
 }
 
 .calc-display {
-  background-color:black;
+  background-color: #2ecc40;
   grid-row: 1 / 2;
   grid-column: 1 / span 4;
 }
 
+span {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .calc-btn {
-    box-sizing: border-box;
-    border: 2px solid orange;
-    font-size: 32px;
-    height: 100%;
-    width: 25%;
-    display: inline-block;
+  height: 100%;
+  width: 25%;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+  font-size: 32px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--primary-blue);
+}
+
+.calc-btn:active {
+  border-color: var(--primary-red);
 }
 
 #btn-row1 {
@@ -59,6 +81,12 @@ footer {
 
 #btn-0 {
   width: 50%;
+  text-align: left;
+}
+
+#btn-0 > span {
+  margin-left: 21%;
+  justify-content: flex-start;
 }
 
 #btn-blank {

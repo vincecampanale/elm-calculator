@@ -11,7 +11,7 @@ viewFooter =
 
 makeButton : String -> Html msg
 makeButton label =
-    div [ class "calc-btn", id ("btn-" ++ label) ] [ text label ]
+    div [ class "calc-btn", id ("btn-" ++ label) ] [ span [] [ text label ] ]
 
 
 calcDisplay : Html msg
